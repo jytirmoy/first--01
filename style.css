@@ -222,3 +222,32 @@ font-size: 16px;
   top: 2px;
   font-size: 12px;
 }
+.end-part{
+    background-color: #FFFFFF;
+    width: 71%;
+    max-width:1600px;
+    padding: 2px 120px 120px 120px;
+    gap:40px;
+    margin: 0 auto;  
+}
+
+.last{
+    max-width: 1360px;
+    text-align: center;   
+    padding: 80px 40px;
+    gap: 24px;
+    margin: 0 auto;
+    background-color: #F7F6F2;      
+}
+
+.last h3{
+    margin-top: 30px;
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.last button{
+    display: block;
+    margin: 20px auto;
+}
