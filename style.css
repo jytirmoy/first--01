@@ -115,3 +115,15 @@ header{
     background: transparent;
     color: #FFFFFF;
 }
+.headline{
+    text-align: center;
+    max-width: 1360px;
+    padding: auto;
+}
+.headline h3{
+    margin-top: 30px;
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+
+}
