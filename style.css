@@ -166,3 +166,59 @@ header{
     color: #001931;
     font-weight: 700;
 }
+.image-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+    padding: 0 120px 120px;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.description{
+    max-width: 1360px;
+    padding: auto;
+    margin-top: 100px;
+}
+.description h5{
+color: green;
+font-size: 16px;
+}
+.description h3{
+    margin-top: 30px;
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+}
+.description p{
+    margin-top: 10px;
+}
+.circle-tick {
+  list-style: none;
+  padding: 0;
+}
+
+.circle-tick li {
+  position: relative;
+  padding-left: 36px;
+  margin: 12px 0;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.circle-tick li::before {
+  content: "✔";
+  width: 20px;
+  height: 20px;
+  background-color: #22c55e; 
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 12px;
+}
