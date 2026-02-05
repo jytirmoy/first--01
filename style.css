@@ -53,3 +53,65 @@ header{
     cursor: pointer;
     font-size: 16px;
 }
+.eye{
+    padding: 8px 12px;
+    width: 229px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 1000px;
+    color: green;
+
+}
+.baner{
+    width: 71%;
+    max-width:1600px;
+}
+.image-box{
+  position: relative;
+}
+
+.image-box img{
+  display: block;
+}
+.center-text{ 
+    top: 40%; 
+    left: 40%; 
+    position: absolute; 
+    text-align: center; }
+
+.center-text h1{
+    color: #ffffff;       
+    font-size: 50px;     
+    font-weight: 300;
+}
+.center-text h2{
+    color:green;       
+    font-size: 40px;     
+    font-weight: 400;
+}
+.center-text p{
+    color: #ffffff;       
+    font-size: 15px;     
+    text-align: center;
+    
+}
+.start-btn{
+     width: 300px;
+    height: 40px;
+    padding: 12px 16px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius:10px 10px;
+    cursor: pointer;
+    font-size: 16px;  
+
+}
+.reset-btn{
+    padding: 12px 16px;
+    border-radius: 4px;
+    background: transparent;
+    color: #FFFFFF;
+}
