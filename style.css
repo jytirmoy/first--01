@@ -251,3 +251,45 @@ font-size: 16px;
     display: block;
     margin: 20px auto;
 }
+.footer{
+    max-width: 1600px;
+  background: #001931;
+  padding: 120px 30px 120px 120px;
+}
+
+.logo-last{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Left side */
+.left{
+  margin-left: 20px;
+}
+
+/* Center */
+.center{
+    margin-top: 264px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Right side */
+.right{
+    font-size: 20px;
+    font-weight: 500;
+  margin-right: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.right img{
+  width: 26px;
+  height: 26px;
+  margin-left: 10px;
+  background: #fff;       
+  padding: 6px;
+  border-radius: 50%;    
+}
